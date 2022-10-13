@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T17:19:46.179Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.141 Whale/3.15.136.29 Safari/537.36" etag="S1LvhinzXjpH6ElccXxM" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T17:42:26.436Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.141 Whale/3.15.136.29 Safari/537.36" etag="NConEQVibVqu4D0gtnCy" version="20.4.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1524" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-36" value="opt" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="660" y="286" width="270" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-18" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#E6D0DE;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="109" y="402" width="831" height="140" as="geometry" />
+        </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="FE" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="172" y="80" width="100" height="530" as="geometry" />
         </mxCell>
@@ -21,14 +27,14 @@
         </mxCell>
         <mxCell id="PAv24Wi7GxfsrFI-geuO-11" value="다운로드 상태 모달" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="55" y="180" as="sourcePoint" />
+            <mxPoint x="56" y="283" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="85" y="180" />
+              <mxPoint x="86" y="283" />
             </Array>
-            <mxPoint x="60" y="200" as="targetPoint" />
+            <mxPoint x="61" y="303" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PAv24Wi7GxfsrFI-geuO-15" value="download status" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-15" value="status" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="247.5" y="389" as="sourcePoint" />
             <mxPoint x="58" y="389" as="targetPoint" />
@@ -84,28 +90,40 @@
           <mxGeometry x="690" y="80" width="100" height="520" as="geometry" />
         </mxCell>
         <mxCell id="aVBYDP4JhRlrpLpwvqIz-25" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="aVBYDP4JhRlrpLpwvqIz-24" vertex="1">
-          <mxGeometry x="45" y="120" width="10" height="30" as="geometry" />
+          <mxGeometry x="45" y="120" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="PAv24Wi7GxfsrFI-geuO-2" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;health check start&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="aVBYDP4JhRlrpLpwvqIz-24">
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-2" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;health checker start&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="aVBYDP4JhRlrpLpwvqIz-24">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-90" y="129.5" as="sourcePoint" />
             <mxPoint x="45" y="129.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PAv24Wi7GxfsrFI-geuO-14" value="download status" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="aVBYDP4JhRlrpLpwvqIz-24">
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-14" value="status" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="aVBYDP4JhRlrpLpwvqIz-24">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="203" y="379.5" as="sourcePoint" />
             <mxPoint x="-265.5" y="379.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-45" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="aVBYDP4JhRlrpLpwvqIz-24">
+          <mxGeometry x="45" y="220" width="10" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="aVBYDP4JhRlrpLpwvqIz-29" value="AsyncDownload&#xa;Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="850" y="80" width="100" height="520" as="geometry" />
+          <mxGeometry x="861" y="80" width="100" height="520" as="geometry" />
         </mxCell>
         <mxCell id="aVBYDP4JhRlrpLpwvqIz-30" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="aVBYDP4JhRlrpLpwvqIz-29" vertex="1">
           <mxGeometry x="45" y="339" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PAv24Wi7GxfsrFI-geuO-25" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="aVBYDP4JhRlrpLpwvqIz-29">
           <mxGeometry x="45" y="478" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-32" value="health" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;entryX=1.1;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="aVBYDP4JhRlrpLpwvqIz-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="188" as="sourcePoint" />
+            <mxPoint x="-115" y="187.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-42" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="aVBYDP4JhRlrpLpwvqIz-29">
+          <mxGeometry x="45" y="166" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PAv24Wi7GxfsrFI-geuO-1" value="download task start" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -115,8 +133,8 @@
         </mxCell>
         <mxCell id="PAv24Wi7GxfsrFI-geuO-5" value="updateHealth" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="230" y="427" as="sourcePoint" />
-            <mxPoint x="410" y="427" as="targetPoint" />
+            <mxPoint x="230" y="421" as="sourcePoint" />
+            <mxPoint x="410" y="421" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -126,10 +144,10 @@
             <mxPoint x="232" y="207.39999999999998" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PAv24Wi7GxfsrFI-geuO-13" value="updateHealth + get download status" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.2;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-13" value="updateHealth " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="425" y="432" as="sourcePoint" />
-            <mxPoint x="893" y="431.64" as="targetPoint" />
+            <mxPoint x="425" y="425" as="sourcePoint" />
+            <mxPoint x="900" y="425" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
@@ -142,7 +160,7 @@
             <mxPoint x="232" y="531" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PAv24Wi7GxfsrFI-geuO-19" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;[다운로드 진행중 여부]&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-19" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ea6b66&quot;&gt;[다운로드 진행중 여부]&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="100" y="434" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PAv24Wi7GxfsrFI-geuO-23" value="result file" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
@@ -151,15 +169,43 @@
             <mxPoint x="425" y="584.86" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PAv24Wi7GxfsrFI-geuO-24" value="download result file" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.2;entryY=0.346;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-24" value="download result file" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="425.5" y="565.36" as="sourcePoint" />
-            <mxPoint x="893.5" y="565" as="targetPoint" />
+            <mxPoint x="425.5" y="561.36" as="sourcePoint" />
+            <mxPoint x="900" y="561" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PAv24Wi7GxfsrFI-geuO-18" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#E6D0DE;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="109" y="402" width="831" height="140" as="geometry" />
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-29" value="get download status" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.5;entryY=0.49;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="aVBYDP4JhRlrpLpwvqIz-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="426" y="444" as="sourcePoint" />
+            <mxPoint x="896" y="443.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-31" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;check health&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="745" y="248" as="sourcePoint" />
+            <mxPoint x="900" y="248" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-35" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;status update (progress 값 포함)&lt;/span&gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;rounded=0;entryX=-0.1;entryY=0.575;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="PAv24Wi7GxfsrFI-geuO-43">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="746" y="312" as="sourcePoint" />
+            <mxPoint x="910" y="311.72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-38" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#ea6b66&quot; style=&quot;font-size: 9px;&quot;&gt;[progress 변경]&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="651" y="310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-43" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="906" y="300" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-44" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot; color=&quot;#ea6b66&quot;&gt;[Health OK]&lt;br style=&quot;font-size: 9px;&quot;&gt;(FE에서 폴링중)&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="608" y="244" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PAv24Wi7GxfsrFI-geuO-41" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="620" y="220" width="320" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
